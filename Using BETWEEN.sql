@@ -1,2 +1,0 @@
-SELECT name, area FROM world
-  WHERE area BETWEEN 250000 AND 300000
