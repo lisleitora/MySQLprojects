@@ -10,7 +10,7 @@ SELECT * FROM interview
 JOIN get_fit_now_check_in ON (membership_id = id)
  WHERE membership_status = 'gold' AND id LIKE '48Z%' AND check_in_date = '20180109'
               
-              SELECT * FROM get_fit_now_member 
+SELECT * FROM get_fit_now_member 
 JOIN get_fit_now_check_in ON (membership_id = get_fit_now_member.id)
 JOIN person ON (person_id = person.id)
 JOIN drivers_license ON (license_id = drivers_license.id)
@@ -35,7 +35,7 @@ WHERE id = '67318'
 -- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 -- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
- SELECT * FROM interview 
+SELECT * FROM interview 
 WHERE person_id = '67318'
 --I was hired by a woman with a lot of money.
 -- I don't know her name but I know she's around 5'5" (65") or 5'7" (67").
